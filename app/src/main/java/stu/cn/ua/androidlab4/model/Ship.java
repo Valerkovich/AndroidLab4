@@ -40,8 +40,8 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "id = " + this.id + "/n"
-                + "home port = " + this.homePort + "/n"
-                + "ship type = " + this.shipType;
+        return "id: " + this.id + "\n"
+                + "home port: " + this.homePort + "\n"
+                + "ship type: " + this.shipType;
     }
 }
